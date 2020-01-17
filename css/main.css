@@ -215,9 +215,12 @@ h3 b{
     height: 280px;
     border: 1px solid #c5c5c5;
     float: left;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-right: 22px;
     margin-top: 25px;
+}
+
+.img-6:last-child, .img-6:nth-child(3){
+    margin-right: 0;
 }
 
 .img-6 img{
@@ -283,8 +286,9 @@ h3 b{
 }
 
 /*footer-1 */
-footer .footer-1{
+.footer-1{
     background-image: url("/img/footer-1.png");
+    height: 265px;
 }
 .footer-1 h3{
     text-align: left;
@@ -323,8 +327,11 @@ hr{
 
 .texto-4{
     width: 20%;
-    margin-left: 40px;
-    padding-right: -10px;
+    margin-right: 60px;
+}
+
+.texto-4:last-child{
+    margin-right: 0;
 }
 
 .texto-4 span{
@@ -368,4 +375,24 @@ hr{
 
 .local , .emael , .telef{
     margin-top: 15px;
+}
+
+/*footer 2*/
+
+.footer-2{
+    background-image: url("/img/footer-2.png");
+    box-sizing: border-box;
+    
+}
+
+.tex-1{
+    width: 70%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.rs-footer ul{
+}
+.rs-footer ul li{
+    margin-left: 20px;
 }
