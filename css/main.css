@@ -14,7 +14,7 @@ ul{
     width: 100%;
 }
 
-main {
+main, .content {
     width: 980px;
     margin: 0 auto;
 }
@@ -153,4 +153,99 @@ ul.slick-dots li button{
     background-color: transparent;
     border: 4px solid #fff;
 }
+
+.texto-destaque{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flow-root;
+    padding-top: 15px;
+}
+
+.texto-destaque h1{
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.texto-destaque strong{
+    color: #646464;
+    font-weight: 500;
+
+}
+
+.texto-destaque p{
+    color: #a2a2a2;
+    font-size: 15px;
+}
+
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.bloco-destaque{
+    margin-top: 3em;
+}
+
+h3{
+    font-weight: normal;
+    color: #919191;
+}
+
+h3 b{
+    color: #868686;
+}
+
+.bloco-img-texto{
+    height: 735px;
+    background-color: #eeeeee;
+    margin-top: 30px;
+}
+
+.img-6{
+    width: 310px;
+    height: 280px;
+    border: 1px solid #c5c5c5;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 25px;
+}
+
+.img-6 img{
+    width: 100%;
+    height: 185px;
+}
+
+.bloco-img{
+    padding-top: 20px;
+}
+
+.img-6 h4{
+    color: #7c7b7b;
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.img-6 p{
+    font-size: 14px;
+    color: #818181;
+    padding-left: 25px;
+}
+
+.bloco-img-texto::before{
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 51px;
+    background-color: #fff;
+    background-image: url(../img/seta-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
