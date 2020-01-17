@@ -98,6 +98,10 @@ main, .content {
     position: relative;
 }
 
+.slick-slide{
+    max-height: 454px;
+}
+
 button.slick-prev{
     font-size: 0px;
     border: none;
@@ -107,8 +111,8 @@ button.slick-prev{
     position: absolute;
     background-color: transparent;
     background-image: url("../img/arrow-esq.png");
-    top: 40%;
-    left: 15%;
+    top: 43%;
+    left: 14%;
 }
 
 button.slick-next{
@@ -120,8 +124,8 @@ button.slick-next{
     position: absolute;
     background-color: transparent;
     background-image: url("../img/arrow-dir.png");
-    top: 40%;
-    right: 15%;
+    top: 43%;
+    right: 15.5%;
 }
 
 .slick-dots{
@@ -129,7 +133,7 @@ button.slick-next{
     width: 50%;
     position: absolute;
     left: 46%;
-    top: 93%;
+    top: 90%;
 }
 
 ul.slick-dots li{
@@ -247,5 +251,121 @@ h3 b{
     background-repeat: no-repeat;
     background-position: center;
 }
+/*logo marcas*/
 
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
 
+.col-4 img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+/* zoom  das logos*/
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*footer-1 */
+footer .footer-1{
+    background-image: url("/img/footer-1.png");
+}
+.footer-1 h3{
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer-1 p{
+    color: #c1c1c1;
+    text-align: left;
+    font-size: 13px;
+}
+
+.footer-1 .clock{
+    color: #787979 ;
+    font-size: 13px;
+}
+/*imagem relogio*/
+.clock::before{
+    content: '';
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("/img/clock.png");
+    float: left;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+hr{
+    width: 75%;
+    display: block;
+    margin-left: initial;
+    border: solid #5c5c5c 1px;
+}
+
+.texto-4{
+    width: 20%;
+    margin-left: 40px;
+    padding-right: -10px;
+}
+
+.texto-4 span{
+    font-weight: 400;
+    color: #e3e4e4;
+    font-size: 14px;
+}
+
+.local::before{
+    content: '';
+    width: 13px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("/img/local.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 21px;
+}
+
+.email::before{
+    content: '';
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("/img/email.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+}
+
+.telef::before{
+    content: '';
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("/img/telef.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+}
+
+.local , .emael , .telef{
+    margin-top: 15px;
+}
