@@ -79,6 +79,7 @@ main, .content {
 .busca{
     width: 30%;
     float: right;
+    margin-top: -5px;
 }
 
 .busca input{
@@ -133,7 +134,7 @@ button.slick-next{
     width: 50%;
     position: absolute;
     left: 46%;
-    top: 90%;
+    top: 87%;
 }
 
 ul.slick-dots li{
