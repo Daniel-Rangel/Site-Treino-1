@@ -82,8 +82,66 @@ body{
     background-position: 96%;
 }
 
-.col-100{
+.cont-borda{
     border-bottom: 3px solid #efefef;
 }
 
 /*Slider */
+
+/*setas*/
+.slick-prev{
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url("../img/arrow-esq.png");
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    left: 13.2%;
+}
+
+.slick-next {
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url("../img/arrow-dir.png");
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    right: 13.2%;
+
+}
+/*botões*/
+
+.slick-dots{
+    width: 50%;
+    position: absolute;
+    margin: 0 auto;
+    top: 89%;
+    left: 42%;
+}
+
+.slick-dots li{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 13px;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: transparent;
+}
+
+.slick-dots li.slick-active {
+    background-color: #00bac6;
+}
