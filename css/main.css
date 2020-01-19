@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -365,3 +364,68 @@ hr{
     padding-right: 35px;
 }
 
+@media only screen and (min-width: 996px) and (max-width:1190px){
+    .slider-pincipal{
+        height: 353px;
+    }
+    .slick-dots{
+        top: 93%;
+        left: 41%;
+    }
+
+
+}
+
+@media only screen and (max-width: 995px){
+    .slider-pincipal{
+        height: 333px;
+    }
+
+    /*texto principal*/
+
+    /*imagem texto*/
+    .bloco-img-texto{
+        
+    }
+    .bloco-img{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .img-6{
+        width: 295px;
+    }
+
+    .img-6:nth-child(1) , .img-6:nth-child(4){
+        margin-left: 22px;
+    }
+
+    .bloco-img-texto::before {
+        margin-top: -16;
+    }
+
+    /*logos */
+
+    .logo-img{
+        justify-content: space-around;
+    }
+
+    .logo-img{
+        padding-right: 0;
+    }
+
+    /*footer-1*/
+    .col-texto-4{
+        padding-right: 40px;
+    }
+
+    .col-texto-4:nth-child(1){
+        padding-left: 15px;
+    }
+     /*footer 2*/
+
+     .tex-1{
+         padding-left: 15px;
+     }
+
+}
